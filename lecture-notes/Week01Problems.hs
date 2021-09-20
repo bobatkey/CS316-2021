@@ -1,6 +1,7 @@
 module Week01Problems where
 
 import Week01
+import Prelude hiding (Left, Right, reverse)
 
 {----------------------------------------------------------------------}
 {- Tutorial Questions                                                 -}
