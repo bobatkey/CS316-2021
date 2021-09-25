@@ -3,7 +3,7 @@ module Week01 where
 
 import Prelude hiding (take, drop, Left, Right, Maybe (..), reverse, length)
 
-{- CS316 2020/21 : Week 1
+{- CS316 2021/22 : Week 1
 
              DATA AND FUNCTIONS
 
