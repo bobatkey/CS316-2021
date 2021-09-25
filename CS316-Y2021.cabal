@@ -23,7 +23,9 @@ library
   hs-source-dirs:      lecture-notes
   exposed-modules:     Week01,
                        Week01Problems,
-                       Week01Solutions
+                       Week01Solutions,
+                       Week02,
+                       Week02Problems
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5,
                        split == 0.2.3.3,
