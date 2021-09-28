@@ -107,14 +107,14 @@ dropSpaces xs       = xs
 {- Alternatively:
 
 dropSpaces []      = []
-dropSpaces (x::xs) = if x == ' ' then dropSpaces xs else xs
+dropSpaces (x:xs) = if x == ' ' then dropSpaces xs else (x:xs)
 
 or
 
 dropSpaces [] = []
-dropSpaces (x::xs)
+dropSpaces (x:xs)
   | x == ' '  = dropSpaces xs
-  | otherwise = xs
+  | otherwise = (x:xs)
 -}
 
 {- 6. Using 'reverse' and 'dropSpaces', write a function that removes
