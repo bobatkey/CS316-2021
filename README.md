@@ -51,4 +51,5 @@ are encouraged to experiment by loading these files into `ghci` and
 editing them. Each section in the files has a few tutorial questions
 that we will go through in the tutorial sessions.
 
-- [Week 1](lecture-notes/Week01.hs) : Data and Functions [Tutorial Problems](lecture-notes/Week01Problems.hs)
+- [Week 1](lecture-notes/Week01.hs) : Data and Functions [Tutorial Problems](lecture-notes/Week01Problems.hs) [Start-the-week Notes](lecture-notes/Intro.hs).
+- [Week 2](lecture-notes/Week02.hs) : Solving Problems by Recusion [Tutorial Problems](lecture-notes/Week02Problems.hs) [Start-the-week Notes](lecture-notes/Week02Intro.hs).
