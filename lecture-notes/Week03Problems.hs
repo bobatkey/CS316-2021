@@ -1,6 +1,5 @@
 module Week03Problems where
 
-import Prelude hiding ((.), map, filter, id, flip)
 import Data.Char
 
 {------------------------------------------------------------------------------}
