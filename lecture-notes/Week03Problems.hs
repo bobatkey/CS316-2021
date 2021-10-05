@@ -1,5 +1,6 @@
 module Week03Problems where
 
+import Data.Char
 
 {------------------------------------------------------------------------------}
 {- TUTORIAL QUESTIONS                                                         -}
