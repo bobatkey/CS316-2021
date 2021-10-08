@@ -54,4 +54,4 @@ that we will go through in the tutorial sessions.
 - [Week 1](lecture-notes/Week01.hs) : Data and Functions [Tutorial Problems](lecture-notes/Week01Problems.hs), [Start-the-week Notes](lecture-notes/Intro.hs).
 - [Week 2](lecture-notes/Week02.hs) : Solving Problems by Recusion [Tutorial Problems](lecture-notes/Week02Problems.hs), [Start-the-week Notes](lecture-notes/Week02Intro.hs).
 - [Week 3](lecture-notes/Week03.hs) : Higher Order Functions [Tutorial Problems](lecture-notes/Week03Problems.hs), [Start-the-week Notes](lecture-notes/Week03Intro.hs)
-- [Week 4](lecture-notes/Week04.hs) : Patterns of Recurion [Tutorial Problems](lecture-notes/Week04Problems.hs)
+- [Week 4](lecture-notes/Week04.hs) : Patterns of Recursion [Tutorial Problems](lecture-notes/Week04Problems.hs)
