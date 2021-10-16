@@ -48,11 +48,19 @@ accessible and less bandwidth hungry format.
 
 The notes are Haskell files with interleaved code and commentary. You
 are encouraged to experiment by loading these files into `ghci` and
-editing them. Each section in the files has a few tutorial questions
-that we will go through in the tutorial sessions.
+editing them. Each week also has a set of tutorial questions that you
+should have a go at before the tutorial sessions on Fridays. The
+solutions will be released after the session.
 
 - [Week 1](lecture-notes/Week01.hs) : Data and Functions [Tutorial Problems](lecture-notes/Week01Problems.hs), [Start-the-week Notes](lecture-notes/Intro.hs).
 - [Week 2](lecture-notes/Week02.hs) : Solving Problems by Recusion [Tutorial Problems](lecture-notes/Week02Problems.hs), [Start-the-week Notes](lecture-notes/Week02Intro.hs).
 - [Week 3](lecture-notes/Week03.hs) : Higher Order Functions [Tutorial Problems](lecture-notes/Week03Problems.hs), [Start-the-week Notes](lecture-notes/Week03Intro.hs)
 - [Week 4](lecture-notes/Week04.hs) : Patterns of Recursion [Tutorial Problems](lecture-notes/Week04Problems.hs), [Start-the-week Notes](lecture-notes/Week04Intro.hs)
 - [Week 5](lecture-notes/Week05.hs) : Classes of Types [Tutorial Problems](lecture-notes/Week05Problems.hs), [Start-the-week Notes](lecture-notes/Week05Intro.hs)
+- Week 6 : Simulating side-effects: Exceptions, State, and Printing
+- Week 7 : Monads
+- Week 8 : Real I/O and Parser Combinators
+- Week 9 : Data Dependencies and Applicative Functors
+- Week 10 : Lazy Evaluation and Infinite Data
+
+For a preview, you can take a look at [last year's repository](https://github.com/bobatkey/CS316-2020).
