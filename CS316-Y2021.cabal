@@ -31,7 +31,10 @@ library
                        Week03Problems,
                        Week03Solutions,
                        Week04,
-                       Week04Problems
+                       Week04Problems,
+                       Week04Solutions,
+                       Week05,
+                       Week05Problems
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5,
                        split == 0.2.3.3,
