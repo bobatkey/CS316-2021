@@ -116,6 +116,9 @@ instance Semigroup a => Monoid (Tree a) where
 
 newtype Fun a = MkFun (a -> a)
 
+unFun :: Fun a -> (a -> a)
+unFun (MkFun f) = f
+
 instance Semigroup (Fun a) where
   MkFun f <> MkFun g = undefined
 
@@ -130,11 +133,11 @@ instance Monoid (Fun a) where
 
    You should have:
 
-     (MkFun reverse <> MkFun reverse) [1,2,3] == [1,2,3]
+     unFun (MkFun reverse <> MkFun reverse) [1,2,3] == [1,2,3]
 
-     (MkFun reverse <> MkFun id) [1,2,3]      == [3,2,1]
+     unFun (MkFun reverse <> MkFun id) [1,2,3]      == [3,2,1]
 
-     (MkFun (+1) <> MkFun (+2)) 0             == 3
+     unFun (MkFun (+1) <> MkFun (+2)) 0             == 3
 -}
 
 
@@ -142,6 +145,9 @@ instance Monoid (Fun a) where
 {- 6. Define Semigroup and Monoid instances for the following datatype. -}
 
 newtype MaybeFun a = MkMaybeFun (a -> Maybe a)
+
+unMaybeFun :: MaybeFun a -> a -> Maybe a
+unMaybeFun (MkMaybeFun f) = f
 
 instance Semigroup (MaybeFun a) where
   MkMaybeFun f <> MkMaybeFun g = undefined
@@ -154,9 +160,9 @@ instance Monoid (MaybeFun a) where
 
    You should have:
 
-     (MkMaybeFun (\_ -> Nothing) <> MkMaybeFun (\x -> Just x)) 1 == Nothing
+     unMaybeFun (MkMaybeFun (\_ -> Nothing) <> MkMaybeFun (\x -> Just x)) 1 == Nothing
 
-     (MkMaybeFun (\x -> Just x) <> MkMaybeFun (\x -> Just x)) 1  == Just 1
+     unMaybeFun (MkMaybeFun (\x -> Just x) <> MkMaybeFun (\x -> Just x)) 1  == Just 1
 -}
 
 
