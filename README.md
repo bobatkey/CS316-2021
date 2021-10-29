@@ -58,7 +58,7 @@ solutions will be released after the session.
 - [Week 4](lecture-notes/Week04.hs) : Patterns of Recursion [Tutorial Problems](lecture-notes/Week04Problems.hs), [Start-the-week Notes](lecture-notes/Week04Intro.hs)
 - [Week 5](lecture-notes/Week05.hs) : Classes of Types [Tutorial Problems](lecture-notes/Week05Problems.hs), [Start-the-week Notes](lecture-notes/Week05Intro.hs)
 - [Week 6](lecture-notes/Week06.hs) : Simulating side-effects: Exceptions, State, and Printing [Tutorial Problems](lecture-notes/Week06Problems.hs), [Start-the-week Notes](lecture-notes/Week06Intro.hs)
-- Week 7 : Monads
+- [Week 7](lecture-notes/Week07.hs) : Monads [Tutorial Problems](lecture-notes/Week07Problems.hs)
 - Week 8 : Real I/O and Parser Combinators
 - Week 9 : Data Dependencies and Applicative Functors
 - Week 10 : Lazy Evaluation and Infinite Data
