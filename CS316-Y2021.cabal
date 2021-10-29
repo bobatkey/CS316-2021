@@ -38,6 +38,7 @@ library
                        Week05Solutions,
                        Week06,
                        Week06Problems,
+                       Week06Solutions,
                        Week07,
                        Week07Problems
   default-language:    Haskell2010
