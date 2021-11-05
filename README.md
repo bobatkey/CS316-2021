@@ -59,7 +59,7 @@ solutions will be released after the session.
 - [Week 5](lecture-notes/Week05.hs) : Classes of Types [Tutorial Problems](lecture-notes/Week05Problems.hs), [Start-the-week Notes](lecture-notes/Week05Intro.hs)
 - [Week 6](lecture-notes/Week06.hs) : Simulating side-effects: Exceptions, State, and Printing [Tutorial Problems](lecture-notes/Week06Problems.hs), [Start-the-week Notes](lecture-notes/Week06Intro.hs)
 - [Week 7](lecture-notes/Week07.hs) : Monads [Tutorial Problems](lecture-notes/Week07Problems.hs), [Start-the-week Notes](lecture-notes/Week07Intro.hs)
-- [Week 8](lecture-notes/Week08.hs) : Real I/O and Parser Combinators
+- [Week 8](lecture-notes/Week08.hs) : Real I/O and Parser Combinators [Tutorial Problems](lecture-notes/Week08Problems.hs)
 - [Week 9](lecture-notes/Week09.hs) : Data Dependencies and Applicative Functors
 - [Week 10](lecture-notes/Week10.hs) : Lazy Evaluation and Infinite Data
 
