@@ -60,7 +60,7 @@ solutions will be released after the session.
 - [Week 6](lecture-notes/Week06.hs) : Simulating side-effects: Exceptions, State, and Printing [Tutorial Problems](lecture-notes/Week06Problems.hs), [Start-the-week Notes](lecture-notes/Week06Intro.hs)
 - [Week 7](lecture-notes/Week07.hs) : Monads [Tutorial Problems](lecture-notes/Week07Problems.hs), [Start-the-week Notes](lecture-notes/Week07Intro.hs)
 - [Week 8](lecture-notes/Week08.hs) : Real I/O and Parser Combinators [Tutorial Problems](lecture-notes/Week08Problems.hs), [Start-the-week Notes](lecture-notes/Week08Intro.hs)
-- [Week 9](lecture-notes/Week09.hs) : Data Dependencies and Applicative Functors
+- [Week 9](lecture-notes/Week09.hs) : Data Dependencies and Applicative Functors, [Start-the-week Notes](lecture-notes/Week09Intro.hs)
 - [Week 10](lecture-notes/Week10.hs) : Lazy Evaluation and Infinite Data
 
 You can take a look at [last year's repository](https://github.com/bobatkey/CS316-2020) for the same notes and some different exercises.
